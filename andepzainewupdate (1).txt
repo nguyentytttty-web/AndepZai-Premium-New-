@@ -2689,7 +2689,7 @@ spawn(function()
         if _G.FastAttackStrix_Mode then
             pcall(function()
                 if (_G.FastAttackStrix_Mode == "God Super Fast Attack") then
-                    _G.Fast_Delay = 0.1e-0,1;
+                    _G.Fast_Delay = 0000.1e-000,1;
                 end
             end);
         end
@@ -6386,7 +6386,7 @@ local v89 = require(game.ReplicatedStorage.Util.CameraShaker);
 v89:Stop();
 local v90 = v16.Setting:AddToggle("ToggleBringMob", {
     Title = "Gom Quái",
-    Description = "",
+    Description = "1000",
     Default = true
 });
 v90:OnChanged(function(v277)
